@@ -8,9 +8,9 @@ Dobrovolný kol pro kurz Staň se kóderkou od Czechitas. Když ho odevzdáš, k
 
 Než začneš s projektem cokoliv dělat, přečti si prosím celý tento text až do konce.
 
-Za úkol máš nakódovat design podle grafického návrhu. Jedná se o úvodní stránku webu fiktivní cukrárny. Na výsledný vzhled projektu se podívej na obrázku *ukazka-vysledku.jpg*. Možná při pohledu na obrázek padáš do mdlob a nevěříš, že takovou stránku zvládneš nakódovat. A já ti tvrdím, že zvládneš. Nebude to lehké, ale je to naprosto proveditelné. Potřebné znalosti na to už máš.
+Za úkol máš nakódovat design podle grafického návrhu. Jedná se o úvodní stránku webu fiktivní cukrárny. Na výsledný vzhled projektu se podívej na obrázku *ukazka-vysledku.jpg*.
 
-A já ti tvrdím, že zvládneš. Bude to těžké, ale naprosto proveditelné.
+Možná při pohledu na obrázek padáš do mdlob a nevěříš, že takovou stránku zvládneš nakódovat. A já ti tvrdím, že zvládneš. Nebude to lehké, ale je to naprosto proveditelné. Potřebné znalosti na to už máš.
 
 ![Ukázka výsledku](ukazka-vysledku.jpg)
 
