@@ -3,6 +3,7 @@
 Dobrovolný kol pro kurz Staň se kóderkou od Czechitas. Když ho odevzdáš, koučové ti k němu napíšou zpětnou vazbu. Toto je standardní varianta úkolu, více se dozvíš v sekci Obtížnosti úkolu.
 
 - [Cíl úkolu](#Cíl-úkolu)
+- [Grafické zadání](#Grafické-zadání)
 - [Obtížnosti úkolu](#Obtížnosti-úkolu)
 - [Jak si stáhnout podklady](#Jak-si-stáhnout-podklady)
 
@@ -30,6 +31,11 @@ Cílem projektu je procvičit si použití různých technik:
   - pamatuj na základní poučku:
     - chci-li obsah prvku odsadit od jeho okraje, použiji padding
     - chci-li odsunout dva prvky od sebe navzájem, použiji margin
+
+
+## Grafické zadání
+
+Všechny potřebné rozměry, použitá písma, barvy, apod. najdeš na obrázku *zadani-ukolu.png*. Spoustu z těchto informací máš připravenou také v komentáři v souboru *style.css*.
 
 ![zadání úkolu](zadani-ukolu.png)
 
