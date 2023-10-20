@@ -26,10 +26,224 @@ html { box-sizing: border-box; }
 	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
+
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
 */
 
+/* obecné vlastnosti písma: velikost, barva, druh, řádkování*/
 
 body {
 	margin: 0;
+	font-size: 18px;
+	font-family: 'Lora', serif;
+	color: #242424;
+	line-height: 1.5;
+	}
+
+/* vím,že většina vlastností pro nadpisy je stejná, ale pro případ, že by bylo nutné upravit zvlášť pro každý nadpis, nechávám zvlášť, je to správný postup? */
+h1 {
+	font-size: 52px;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	color: #fefefe;
+	font-weight: bold;
+	margin: 0;
 }
 
+h2{
+ 	font-size: 36px;
+ 	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	color: #3e606b;
+	font-weight: bold;
+	margin: 0;
+}
+
+h3{
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	color: #3e606b;
+	font-weight: bold;
+	margin: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+/*obrázek cukrářky a fotka v sekci Náš přístup k pečení */
+.cukrarka,
+.peceni {
+	border-radius: 5px;
+}
+
+
+/* úpravy hlavicky */
+.logo {
+	width: 170px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.odkazHlavicka {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	}
+
+.odkazHlavicka:hover {
+	color: whitesmoke;
+	background-color: #d2567d ;
+	border-radius: 20px;
+
+}		
+
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;  /*max šířka je 1100px, margin auto. Nutné použít i pro další texty, asi sjednotit */
+	margin: 30px auto;
+}
+
+/*úvodní banner sekce*/
+
+.sekceBanner {
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+
+.odstavecBanner {
+	color: #fefefe;
+	font-size: 24px;
+	font-style: italic;
+	margin-right: 40%;
+}
+.nadpisBanner {
+	margin-right: 40%;
+}
+
+.textyBanner {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+
+/* sekce Vítejte v naší cukrárně */
+.vitejte {
+	background-color: rgb(195, 234, 242);
+	padding: 80px 0;
+}
+
+.obsahVitejte {
+	display: flex;
+	background-color: #fefefe;
+	margin: 0 auto;
+	max-width: 1100px;
+	}
+
+.textyVitejte {
+	margin-right: 30px;
+	margin-left: 5px;
+	padding: 30px 0 ;
+	}
+
+
+.cukrarka,
+.textyVitejte {
+	width: 50%;
+}
+
+.odkazVyrobky {
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #fefefe;
+	background-color:#f195b2	;
+	border-radius: 30px;
+	padding: 15px 40px;
+
+}
+
+.odkazVyrobky:hover {
+	background-color: #d2567d;	
+}
+
+/*sekce dnešní nabídka */
+.nabidka {
+	background-color: #f0f0f0	 ;
+	
+}
+
+.obsahNabidka {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 80px 0;
+}
+
+.produkty {
+	display: flex;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+
+.produkt {
+	display: flex;
+	flex-direction: column;
+	flex-basis: calc((1100px - 90px)/4) ;
+	flex-grow: 0;
+	flex-shrink: 1;
+	background-color: #fefefe;
+	border-radius: 5px;
+}
+
+.dort {
+	width: calc((1100px - 90px)/4) ;
+	border-radius: 5px 5px 0 0;
+}
+
+.textDort {
+	margin: 20px;
+}
+
+.produkt h3 {
+	text-align: center;
+	}
+
+/* sekce Náš přístup k pečení */
+
+.pristup {
+	padding: 80px 0;
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto ;
+	}
+
+.peceni,
+.pristupPravySl {
+	width: 50%;
+}
+
+.pristupPravySl {
+	padding-left: 30px;
+}
+
+/* patička */
+.paticka {
+	background-color: #303339 ;
+	color: #f0f0f0;
+	text-align: center;
+	padding: 30px 0;
+	}
+
+.paticka p {
+	margin: 0 auto;
+}
